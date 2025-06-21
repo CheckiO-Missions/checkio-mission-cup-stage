@@ -11,26 +11,74 @@ Each test is a dict with
 TESTS = {
     "Basics": [
         {
-            "input": [3, 2],
-            "answer": 5,
-            "explanation": "3+2=?"
+            "input": [10, 14, 16],
+            "answer": "1/4",
         },
         {
-            "input": [5, 7],
-            "answer": 12,
-            "explanation": "5+7=?"
+            "input": [5, 18, 32],
+            "answer": "final",
+        },
+        {
+            "input": [5, 7, 8],
+            "answer": "1/2",
+        },
+        {
+            "input": [1, 2, 2],
+            "answer": "final",
+        },
+        {
+            "input": [13, 14, 32],
+            "answer": "1/16",
         },
     ],
     "Extra": [
         {
-            "input": [6, 3],
-            "answer": 9,
-            "explanation": "6+3=?"
+            "input": [7, 8, 16],
+            "answer": "1/8",
         },
         {
-            "input": [6, 7],
-            "answer": 13,
-            "explanation": "6+7=?"
+            "input": [3, 13, 16],
+            "answer": "final",
+        },
+        {
+            "input": [5, 8, 16],
+            "answer": "1/4",
+        },
+        {
+            "input": [8, 9, 16],
+            "answer": "final",
+        },
+        {
+            "input": [8, 16, 16],
+            "answer": "final",
+        },
+        {
+            "input": [1, 8, 16],
+            "answer": "1/2",
+        },
+        {
+            "input": [3, 4, 16],
+            "answer": "1/8",
+        },
+        {
+            "input": [3, 21, 32],
+            "answer": "final",
+        },
+        {
+            "input": [17, 29, 32],
+            "answer": "1/2",
+        },
+        {
+            "input": [9, 15, 32],
+            "answer": "1/4",
+        },
+        {
+            "input": [13, 15, 32],
+            "answer": "1/8",
+        },
+        {
+            "input": [1, 6, 8],
+            "answer": "final",
         },
     ]
 }

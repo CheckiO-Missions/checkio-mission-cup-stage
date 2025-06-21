@@ -1,20 +1,24 @@
 <!-- Describe task in general -->
 <!-- <img src="{{MEDIA_CONVERT}}title.png" class="title_img" /> -->
 <p style="text-align: justify;">
-    Sum two passed ints
+    Consider a world cup stage where players are competing in a knockout format: they face each other according to their positions in the bracket in a single-elimination match. The winners of each match advance to the next round until a champion is determined. Look at the example for 16 players.
 </p>
 
 <p style="text-align: center;">
-    <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 83px"/>
+    <img  title="example" src="{{MEDIA}}cup_stage.svg" alt="example" style="max-height: 300px"/>
+</p>
+
+<p style="text-align: justify;">
+    Given two players' positions in the bracket and the total number of players, your program should determine what phase (final, 1/2, 1/4 etc.) they will face each other in, assuming they both win their matches until they meet.
 </p>
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Input:</strong> Two arguments. Both are ints.
+    <strong>Input:</strong> Three integers <span translate="no">({% if is_js %}number{% else %}int{% endif %})</span>.
 </p>
 
 <p>
-    <strong>Output:</strong> Int. 
+    <strong>Output:</strong> String <span translate="no">(str{% if is_js %}ing{% endif %})</span>. 
 </p>
 
 
@@ -34,9 +38,10 @@
 
 <!-- Here you can explain some constraints for input-->
 <!-- The section is optional -->
-<!-- <p>
+<p>
     <strong>Preconditions:</strong>
     <ul>
-    <li><i>both given ints should be between -1000 and 1000</i></li>
+    <li><i>1 <= pos1 < pos2 <= total;</i></li>
+    <li><i>total = 2<sup>n</sup>, n = 1, 2,... .</i></li>
     </ul>
-</p> -->
+</p>
