@@ -12,7 +12,7 @@ TESTS = {
     "Basics": [
         {
             "input": [10, 14, 16],
-            "answer": "1/4",
+            "answer": "1/2",
         },
         {
             "input": [5, 18, 32],
