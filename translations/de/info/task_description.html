@@ -1,0 +1,47 @@
+<!-- Describe task in general -->
+<!-- <img src="{{MEDIA_CONVERT}}title.png" class="title_img" /> -->
+<p style="text-align: justify;">
+    Stellen Sie sich eine Weltmeisterschaft vor, bei der die Spieler in einem K.O.-System gegeneinander antreten: Sie stehen sich entsprechend ihrer Position in der Tabelle in einem K.O.-System gegenüber. Die Gewinner jedes Spiels kommen in die nächste Runde, bis ein Champion ermittelt ist. Sehen Sie sich das Beispiel für 16 Spieler an.
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}cup_stage.svg" alt="example" style="max-height: 300px"/>
+</p>
+
+<p style="text-align: justify;">
+    Ausgehend von den Positionen zweier Spieler in der Tabelle und der Gesamtzahl der Spieler sollte Ihr Programm ermitteln, in welcher Phase (Finale, 1/2, 1/4 usw.) sie aufeinander treffen, vorausgesetzt, sie gewinnen beide ihre Spiele, bis sie aufeinander treffen.
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Eingabe:</strong> Drei Ganzzahlen <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Ausgabe:</strong> String <span>(str{% if is_js %}ing{% endif %})</span>. 
+</p>
+
+
+<p>
+    <strong>Beispiele:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<p>
+    <strong>Vorbedingungen:</strong>
+    <ul>
+    <li><i>1 &lt;= pos1 &lt; pos2 &lt;= gesamt;</i></li>
+    <li><i>gesamt = <sup>2n</sup>, n = 1, 2,... .</i></li>
+    </ul>
+</p>
