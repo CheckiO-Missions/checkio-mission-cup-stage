@@ -1,0 +1,47 @@
+<!-- Describe task in general -->
+<!-- <img src="{{MEDIA_CONVERT}}title.png" class="title_img" /> -->
+<p style="text-align: justify;">
+    Prenons l'exemple d'une coupe du monde où les joueurs s'affrontent par élimination directe: ils s'affrontent en fonction de leur position dans le classement dans un match à élimination directe. Les vainqueurs de chaque match accèdent au tour suivant jusqu'à ce qu'un champion soit désigné. Regardez l'exemple pour 16 joueurs.
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}cup_stage.svg" alt="example" style="max-height: 300px"/>
+</p>
+
+<p style="text-align: justify;">
+    Étant donné la position de deux joueurs dans le tableau et le nombre total de joueurs, votre programme doit déterminer dans quelle phase (finale, 1/2, 1/4, etc.) ils s'affronteront, en supposant qu'ils gagnent tous les deux leurs matchs jusqu'à ce qu'ils se rencontrent.
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Données d'entrée:</strong> Trois entiers <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Sortie:</strong> Chaîne <span>(str{% if is_js %}ing{% endif %})</span>. 
+</p>
+
+
+<p>
+    <strong>Exemples:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<p>
+    <strong>Conditions préalables:</strong>
+    <ul>
+    <li><i>1 &lt;= pos1 &lt; pos2 &lt;= total;</i></li>
+    <li><i>total = <sup>2n</sup>, n = 1, 2,... .</i></li>
+    </ul>
+</p>
