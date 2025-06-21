@@ -1,0 +1,47 @@
+<!-- Describe task in general -->
+<!-- <img src="{{MEDIA_CONVERT}}title.png" class="title_img" /> -->
+<p style="text-align: justify;">
+    Розглянемо етап чемпіонату світу, де гравці змагаються у форматі на виліт: вони зустрічаються один з одним відповідно до своїх позицій у турнірній таблиці в матчі на виліт. Переможці кожного матчу переходять до наступного раунду, поки не визначиться чемпіон. Подивіться на приклад для 16 гравців.
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}cup_stage.svg" alt="example" style="max-height: 300px"/>
+</p>
+
+<p style="text-align: justify;">
+    За позиціями двох гравців у турнірній таблиці та загальною кількістю гравців ваша програма повинна визначити, на якій стадії (фінал, 1/2, 1/4 і т.д.) вони зустрінуться один з одним, припускаючи, що вони обидва виграють свої матчі, поки не зустрінуться.
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Вхідні дані:</strong> Три цілих числа <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Вихідні дані:</strong> Рядок <span>(str{% if is_js %}ing{% endif %})</span>. 
+</p>
+
+
+<p>
+    <strong>Приклади:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<p>
+    <strong>Передумови:</strong>
+    <ul>
+    <li><i>1 &lt;= pos1 &lt; pos2 &lt;= total;</i></li>
+    <li><i>total = <sup>2n</sup>, n = 1, 2,... .</i></li>
+    </ul>
+</p>
