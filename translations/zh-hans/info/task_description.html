@@ -1,0 +1,47 @@
+<!-- Describe task in general -->
+<!-- <img src="{{MEDIA_CONVERT}}title.png" class="title_img" /> -->
+<p style="text-align: justify;">
+    在世界杯的舞台上，选手们以淘汰赛的形式进行角逐：他们根据自己在分组中的位置进行单败淘汰赛。每场比赛的胜者进入下一轮，直至决出冠军。请看 16 名球员的示例。
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}cup_stage.svg" alt="example" style="max-height: 300px"/>
+</p>
+
+<p style="text-align: justify;">
+    给定两位选手在包围圈中的位置和选手总数，您的程序应该确定他们将在哪个阶段（决赛、1/2、1/4 等）对阵，假设他们都赢得了比赛，直到他们相遇。
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>输入</strong>三个整数 <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+   <strong>输出： 字符串</strong>字符串 <span>(str{% if is_js %}ing{% endif %})</span>. 
+</p>
+
+
+<p>
+    <strong>示例：</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<p>
+    <strong>前提条件：</strong>
+    <ul>
+    <li><i>1 &lt;= pos1 &lt; pos2 &lt;= total；</i></li>
+    <li><i>total =<sup>2n</sup>, n = 1, 2,....</i></li>
+    </ul>
+</p>
